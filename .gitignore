@@ -1,5 +1,5 @@
-client/node_modules
-comments/node_modules
-event-bus/node_modules
-post/node_modules
-query/node_modules
+microservice/client/node_modules
+microservice/comments/node_modules
+microservice/event-bus/node_modules
+microservice/post/node_modules
+microservice/query/node_modules

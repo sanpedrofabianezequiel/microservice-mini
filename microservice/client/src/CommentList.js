@@ -4,7 +4,21 @@ export const CommentList = ({comments}) => {
 
 
   const renderComments = comments.map(x=>{
-      return <li key={x.id}>{x.content}</li>
+
+    let content;
+    if(x.status ==='approved'){
+      content =  x.content;
+    }
+
+    if(x.status === 'pending'){
+      content='This comment is awaiting moderationg';
+    }
+
+    if(x.status === 'rejected'){
+      content='This comment has been rejected'
+    }
+
+      return <li key={x.id}>{content}</li>
   })
 
   return (

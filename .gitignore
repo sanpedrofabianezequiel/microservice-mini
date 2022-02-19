@@ -1,5 +1,7 @@
 microservice/client/node_modules
 microservice/comments/node_modules
 microservice/event-bus/node_modules
-microservice/post/node_modules
+microservice/posts/node_modules
 microservice/query/node_modules
+microservice/moderation/node_modules
+
